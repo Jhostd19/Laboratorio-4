@@ -7,22 +7,31 @@ body {
   font-family: Arial, sans-serif;
 }
 
-h3 {
-    color: #ffae00; text-align: center;
-    text-shadow: 
-    0 0 5px #504f4f,
-    0 0 10px #ffffff,
-    0 0 20px #ffffff;
-}
-
 h2 {
   color: #ffae00;
 }
 
+h3 {
+    color: #ffae00; text-align: center;
+}
+
+h4 {
+  color: #ffae00; text-align: center;
+   text-shadow: 
+    0 0 5px #504f4f,
+    0 0 10px #ffffff,
+    0 0 20px #ffffff;
+}
 p {
-  text-align: justify, center;
-  padding: 10px;
-  color: aliceblue;
+  text-align: justify;
+   text-justify: inter-word;
+    line-height: 1.6;
+      hyphens: auto;
+        padding: 10px;
+          color: aliceblue;
+}
+p.centre {
+  text-align: center;
 }
 
 ul { color: #c5c1c1; }
