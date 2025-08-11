@@ -247,6 +247,9 @@ ul li::marker {
   ol {
     grid-template-columns: 1fr;
   }
+  p {
+    text-align: justify;
+  }
 }
 
 /* ===== FORMULARIO DE CONTACTO ===== */
