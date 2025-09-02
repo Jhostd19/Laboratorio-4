@@ -169,6 +169,52 @@ nav.MenuH ul li a:hover {
     display: flex;
   }
 }
+/* TABLA DE REFERENCIAS */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+    font-size: 1rem;
+}
+
+/* Encabezados */
+th {
+    border: 1px solid var(--borde);
+    padding: 0.75rem;
+    text-align: center;
+    background-color: var(--secundario);
+    color: #fff;
+    font-weight: bold;
+}
+tr {
+      border: 1px solid var(--borde);
+    padding: 0.75rem;
+    text-align: center;
+    background-color:#00695d;
+    color: #fff;
+    font-weight: bold;
+}
+/* Celdas */
+td {
+    border: 1px solid var(--borde);
+    padding: 0.75rem;
+    text-align: center;
+    color: #000; 
+}
+
+/* Filas alternadas */
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #fff;
+}
+
+/* Hover en filas */
+tbody tr:hover {
+    background-color: #e0f7fa;
+}
 
 /* ====== FORMULARIO ====== */
 form {
